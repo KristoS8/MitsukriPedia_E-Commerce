@@ -12,6 +12,7 @@ export default {
             },
             colors: {
                 "biru-utama": ["#0099FF"],
+                "biru-muda": ["#6DC4E0"],
             },
         },
     },
