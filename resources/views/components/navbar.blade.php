@@ -1,6 +1,6 @@
       {{-- navbar --}}
-      <div class="">
-          <nav class="bg-biru-utama-0 h-24 text-white flex items-center justify-evenly sticky shadow-md drop-shadow-lg">
+      <div class="w-full sticky top-0 sm:w-full sm:sticky sm:top-0">
+          <nav class="bg-biru-utama-0 h-24 text-white flex items-center justify-evenly shadow-md drop-shadow-lg">
               <span class="font-semibold text-3xl mx-5">MitsukriPedia</span>
               <ul class="flex justify-around w-1/3">
                   <li class="text-base cursor-pointer p-1"><a href="">Books</a></li>

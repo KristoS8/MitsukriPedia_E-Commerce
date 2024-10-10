@@ -14,6 +14,7 @@ export default {
                 "biru-utama": ["#0099FF"],
                 "biru-muda": ["#6DC4E0"],
                 "biru-muda-2": ["#39A7C9"],
+                "biru-muda-3": ["#BEEFFF"],
             },
         },
     },

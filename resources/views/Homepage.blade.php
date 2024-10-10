@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
     <title>Mitsukri Pedia</title>
 </head>
 
-<body class="m-0 font-helvetica" style="height: 400vh">
+<body class="m-0 font-helvetica">
 
     <x-navbar></x-navbar>
 
@@ -263,11 +263,65 @@
         <hr class="h-px my-8 w-11/12 bg-gray-200 border-0 dark:bg-gray-700">
     </div>
 
+    {{-- about --}}
+
+    <div class="text-3xl font-bold my-12 w-full grid justify-items-center">
+        <p>About</p>
+    </div>
+
+    <div class="w-full grid justify-items-center text-gray-500 mb-52">
+        <p class="w-3/5 text-center"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+            galley of
+            type and scrambled it to make a type specimen book.</p>
+    </div>
+
+
 
     {{-- footer --}}
-    {{-- <div>
-        <footer class="bg-biru-utama-0 w-full h-52">Make With Love</footer>
-    </div> --}}
+    <div class="bg-biru-muda-3-0 w-full relative h-max pt-24">
+        <div
+            class="flex items-center bg-biru-utama-0 absolute -top-28 w-max rounded-3xl justify-evenly left-1/2 transform -translate-x-1/2 shadow-md drop-shadow-md">
+            <img src="{{ asset('img/brighton.png') }}" alt="" class="py-8 px-7 w-1/5 h-1/5">
+            <div class="font-semibold text-white text-2xl text-center py-8 px-8">
+                <div>STAY UP TO DATE ABOUT OUR LATEST OFFERS</div>
+                <div class="text-sm mt-2">Support Us!</div>
+            </div>
+        </div>
+        <footer class="w-full h-full">
+            <ul class="mx-24 my-5 w-max">
+                <li class="mt-1">
+                    <div class="font-semibold text-5xl text-biru-utama-0">MitsukriPedia</div>
+                </li>
+                <li class="mt-1">
+                    <div class="font-semibold text-sm opacity-30 ">We sale everything that we have</div>
+                </li>
+                <li class="mt-1">
+                    <div class="font-semibold text-sm opacity-30">We sale everything that we supposed to sale
+                    </div>
+                </li>
+                <li class="flex items-center mt-1">
+                    <button class="bg-gray-50 p-1.5 rounded-full shadow-md focus:ring-gray-300 focus:ring-2">
+                        <i data-feather="github" class="stroke-blue-600 w-3 h-3"></i>
+                    </button>
+                    <div class="font-medium text-sm mx-1">KristoS8</div>
+                </li>
+                <li class="mt-1 flex items-center">
+                    <button class="bg-gray-50 p-1.5 rounded-full shadow-md focus:ring-gray-300 focus:ring-2">
+                        <i data-feather="instagram" class="stroke-blue-600 w-3 h-3"></i>
+                    </button>
+                    <div class="font-medium text-sm mx-1">Instagram</div>
+                </li>
+                <li class="mt-1 flex items-center">
+                    <button class="bg-gray-50 p-1.5 rounded-full shadow-md focus:ring-gray-300 focus:ring-2">
+                        <i data-feather="linkedin" class="stroke-blue-600 w-3 h-3"></i>
+                    </button>
+                    <div class="font-medium text-sm mx-1">Linkedin</div>
+                </li>
+            </ul>
+
+        </footer>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.2/feather.min.js"
         integrity="sha512-zMm7+ZQ8AZr1r3W8Z8lDATkH05QG5Gm2xc6MlsCdBz9l6oE8Y7IXByMgSm/rdRQrhuHt99HAYfMljBOEZ68q5A=="
