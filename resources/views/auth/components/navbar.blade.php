@@ -32,7 +32,7 @@
                           <i data-feather="log-in" class="stroke-blue-400 w-5 ml-3"></i>
                       </li>
                       <li class="flex items-center hover:bg-gray-200 mt-2 rounded-b-md">
-                          <a href="#" class="px-3 py-2 text-gray-800 text-sm font-semibold">Sign Up</a>
+                          <a href="/daftar" class="px-3 py-2 text-gray-800 text-sm font-semibold">Sign Up</a>
                           <i data-feather="user-plus" class="stroke-blue-400 w-5 ml-1"></i>
                       </li>
                   </ul>

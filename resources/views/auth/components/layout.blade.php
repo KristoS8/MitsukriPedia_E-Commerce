@@ -10,13 +10,11 @@
     <title>Mitsukri Pedia</title>
 </head>
 
-<body class="font-helvetica">
+<body class="font-helvetica overflow-hidden">
 
-    <x-navbar></x-navbar>
+    @include('auth.components.navbar')
 
-    {{ $slot }}
-    {{-- footer --}}
-    <x-footer></x-footer>
+    @yield('container')
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.2/feather.min.js"
         integrity="sha512-zMm7+ZQ8AZr1r3W8Z8lDATkH05QG5Gm2xc6MlsCdBz9l6oE8Y7IXByMgSm/rdRQrhuHt99HAYfMljBOEZ68q5A=="
