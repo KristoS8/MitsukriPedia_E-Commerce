@@ -46,7 +46,7 @@
         <div class="font-medium text-sm mx-1 mt-1 ml-16 text-gray-400">MitsukriPedia Ⓒ2024, All Rights Reserved
         </div>
 
-        <div class="w-3/12 flex justify-around place-self-end mx-12">
+        <div class="w-max flex place-self-end mx-12 gap-5 justify-center">
             <div class="bg-white p-2 rounded-2xl w-max flex items-center cursor-pointer">
                 <img src="{{ asset('img/google.png') }}" alt="" class="w-7 object-contain mix-blend-multiply">
                 <p class="mx-2">Pay</p>

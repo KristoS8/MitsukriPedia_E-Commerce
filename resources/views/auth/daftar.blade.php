@@ -27,9 +27,9 @@
         </div>
         <img src="{{ asset('img/wave.png') }}" alt="" class="aspect-square object-cover">
         <div class=" w-1/2">
-            <div class="font-semibold w-full grid justify-items-center mt-10 text-2xl">{{ $title }}</div>
+            <div class="font-semibold w-full grid justify-items-center mt-8 text-2xl">{{ $title }}</div>
 
-            <form action="" method="post" class="mb-5 mt-2 mx-10 space-y-3 space-x-10">
+            <form action="" method="post" class="mb-5 mt-2 mx-10 space-y-2 space-x-10">
                 @csrf
                 <label for="noTelp" class="font-semibold">No. Telp</label>
                 <div>

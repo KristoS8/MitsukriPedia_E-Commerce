@@ -3,7 +3,7 @@
           <nav class="bg-biru-utama-0 h-24 text-white flex items-center justify-evenly shadow-md drop-shadow-lg">
               <a class="font-semibold text-3xl mx-5" href="/">MitsukriPedia</a>
               <ul class="flex justify-around w-1/3">
-                  <li class="text-base cursor-pointer p-1 hover:text-gray-100"><a href="">Books</a></li>
+                  <li class="text-base cursor-pointer p-1 hover:text-gray-100"><a href="/books">Books</a></li>
                   <li class="text-base cursor-pointer p-1 hover:text-gray-100"><a href="">Gadget</a></li>
                   <li class="text-base cursor-pointer p-1 hover:text-gray-100"><a href="">Diamond</a></li>
               </ul>

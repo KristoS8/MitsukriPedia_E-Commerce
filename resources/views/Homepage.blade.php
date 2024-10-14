@@ -4,7 +4,7 @@
         <p>Books</p>
     </div>
 
-    <div class="w-full flex items-center justify-center">
+    <div class="w-full flex items-center justify-center sm:flex-wrap">
         <ul class="flex justify-around w-10/12">
             <li class="">
                 <a

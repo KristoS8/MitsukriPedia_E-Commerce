@@ -10,7 +10,7 @@
     <title>Mitsukri Pedia</title>
 </head>
 
-<body class="font-helvetica overflow-hidden">
+<body class="font-helvetica overflow-hidden box-border">
 
     @include('auth.components.navbar')
 

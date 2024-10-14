@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BooksController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -13,3 +14,5 @@ Route::get('/login', function () {
 Route::get('/daftar', function () {
    return view('auth.daftar', ['title' => 'Register']); 
 });
+
+Route::get('/books', [BooksController::class, 'index']);
