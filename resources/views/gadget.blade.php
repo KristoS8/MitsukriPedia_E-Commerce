@@ -8,9 +8,9 @@
                     <p>Categories</p>
                 </div>
                 <ul class="space-y-3 text-gray-500 h-max w-max mt-3">
-                    <li><a href="">Komik</a></li>
-                    <li><a href="">Programming</a></li>
-                    <li class="underline"><a href="">Filsafat</a></li>
+                    <li><a href="">Smartphone</a></li>
+                    <li><a href="">Tablet</a></li>
+                    <li class="underline"><a href="">Laptop</a></li>
                 </ul>
             </div>
 
@@ -18,55 +18,54 @@
 
         <div class="w-full h-max">
             <header class="bg-gray-200 py-1 w-full">
-                <div class="font-semibold text-2xl m-10">Books</div>
+                <div class="font-semibold text-2xl m-10">Gadget</div>
             </header>
 
             <div class="h-max w-full grid justify-items-center mt-14 mb-40">
                 <div class="h-96 w-max grid grid-cols-5 gap-10 items-center">
                     <div class="h-full w-40 ">
-                        <a class="h-4/6 w-full bg-biru-utama-0 rounded-xl shadow-md flex justify-center items-center"
-                            href="">
-                            <img src="{{ asset('img/book4.png') }}" alt="" class="w-3/4">
+                        <a href=""
+                            class="h-4/6 w-full rounded-xl shadow-lg flex justify-center items-center outline-2 outline-biru-muda-0 outline-offset-0 outline-none">
+                            <img src="{{ asset('img/gadget3.jpeg') }}" alt="" class="w-3/4">
                         </a>
                         <div class="w-full grid justify-items-center my-2">
-                            <div class="font-semibold mt-1 text-xs text-center">History Of Western Philosophy</div>
+                            <div class="font-semibold mt-1 text-xs text-center">Redmibook 14</div>
                             <div class="mt-1 text-xs">
                                 <span class="fa fa-star text-yellow-400"></span>
                                 <span class="fa fa-star text-yellow-400"></span>
                                 <span class="fa fa-star text-yellow-400"></span>
                                 <span class="fa fa-star text-yellow-400"></span>
-                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star text-yellow-400"></span>
                             </div>
-                            <div class="font-semibold mt-1">Rp. 100.000,00</div>
+                            <div class="font-semibold mt-1">Rp. 7.999.000,00</div>
                         </div>
                     </div>
 
                     <div class="h-full w-40">
-                        <a class="h-4/6 w-full bg-biru-utama-0 rounded-xl shadow-md flex justify-center items-center"
-                            href="">
-                            <img src="{{ asset('img/book4.png') }}" alt="" class="w-3/4">
+                        <a href=""
+                            class="h-4/6 w-full rounded-xl shadow-lg flex justify-center items-center  outline-2 outline-biru-muda-0 outline-offset-0 outline-none">
+                            <img src="{{ asset('img/gadget4.jpeg') }}" alt="" class="w-3/4">
                         </a>
                         <div class="w-full grid justify-items-center my-2">
-                            <div class="font-semibold mt-1 text-xs text-center">Psychology of Money</div>
+                            <div class="font-semibold mt-1 text-xs text-center">Macbook Air M1</div>
                             <div class="mt-1 text-xs">
                                 <span class="fa fa-star text-yellow-400"></span>
                                 <span class="fa fa-star text-yellow-400"></span>
                                 <span class="fa fa-star text-yellow-400"></span>
                                 <span class="fa fa-star text-yellow-400"></span>
-                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star text-yellow-400"></span>
                             </div>
-                            <div class="font-semibold mt-1">Rp. 150.000,00</div>
+                            <div class="font-semibold mt-1">Rp. 12.599.000,00</div>
                         </div>
                     </div>
 
                     <div class="h-full w-40">
-                        <a class="h-4/6 w-full bg-biru-utama-0 rounded-xl shadow-md flex justify-center items-center"
-                            href="">
-                            <img src="{{ asset('img/book2.png') }}" alt="" class="w-3/4">
+                        <a href=""
+                            class="h-4/6 w-full rounded-xl shadow-lg flex justify-center items-center  outline-2 outline-biru-muda-0 outline-offset-0 outline-none">
+                            <img src="{{ asset('img/gadget3.jpeg') }}" alt="" class="w-3/4">
                         </a>
                         <div class="w-full grid justify-items-center my-2">
-                            <div class="font-semibold mt-1 text-xs text-center">Sebuah Seni Untuk<br />
-                                Bersikap Bodo Amat</div>
+                            <div class="font-semibold mt-1 text-xs text-center">Redmibook 14</div>
                             <div class="mt-1 text-xs">
                                 <span class="fa fa-star text-yellow-400"></span>
                                 <span class="fa fa-star text-yellow-400"></span>
@@ -74,17 +73,17 @@
                                 <span class="fa fa-star text-yellow-400"></span>
                                 <span class="fa fa-star"></span>
                             </div>
-                            <div class="font-semibold mt-1">Rp. 100.000,00</div>
+                            <div class="font-semibold mt-1">Rp. 7.999.000,00</div>
                         </div>
                     </div>
 
                     <div class="h-full w-40">
-                        <a class="h-4/6 w-full bg-biru-utama-0 rounded-xl shadow-md flex justify-center items-center"
-                            href="">
-                            <img src="{{ asset('img/book3.png') }}" alt="" class="w-3/4">
+                        <a href=""
+                            class="h-4/6 w-full rounded-xl shadow-lg flex justify-center items-center  outline-2 outline-biru-muda-0 outline-offset-0 outline-none">
+                            <img src="{{ asset('img/gadget4.jpeg') }}" alt="" class="w-3/4">
                         </a>
                         <div class="w-full grid justify-items-center my-2">
-                            <div class="font-semibold mt-1 text-xs text-center">Masyarakat Tanpa Tuhan</div>
+                            <div class="font-semibold mt-1 text-xs text-center">Macbook Air M1</div>
                             <div class="mt-1 text-xs">
                                 <span class="fa fa-star text-yellow-400"></span>
                                 <span class="fa fa-star text-yellow-400"></span>
@@ -92,17 +91,17 @@
                                 <span class="fa fa-star text-yellow-400"></span>
                                 <span class="fa fa-star"></span>
                             </div>
-                            <div class="font-semibold mt-1">Rp. 100.000,00</div>
+                            <div class="font-semibold mt-1">Rp. 12.599.000,00</div>
                         </div>
                     </div>
 
                     <div class="h-full w-40">
-                        <a class="h-4/6 w-full bg-biru-utama-0 rounded-xl shadow-md flex justify-center items-center"
-                            href="">
-                            <img src="{{ asset('img/book4.png') }}" alt="" class="w-3/4">
+                        <a href=""
+                            class="h-4/6 w-full rounded-xl shadow-lg flex justify-center items-center  outline-2 outline-biru-muda-0 outline-offset-0 outline-none">
+                            <img src="{{ asset('img/gadget3.jpeg') }}" alt="" class="w-3/4">
                         </a>
                         <div class="w-full grid justify-items-center my-2">
-                            <div class="font-semibold mt-1 text-xs text-center">History Of Western Philosophy</div>
+                            <div class="font-semibold mt-1 text-xs text-center">Redmibook 14</div>
                             <div class="mt-1 text-xs">
                                 <span class="fa fa-star text-yellow-400"></span>
                                 <span class="fa fa-star text-yellow-400"></span>
@@ -110,7 +109,7 @@
                                 <span class="fa fa-star text-yellow-400"></span>
                                 <span class="fa fa-star"></span>
                             </div>
-                            <div class="font-semibold mt-1">Rp. 100.000,00</div>
+                            <div class="font-semibold mt-1">Rp. 7.999.000,00</div>
                         </div>
                     </div>
 

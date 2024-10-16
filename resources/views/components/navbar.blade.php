@@ -3,9 +3,18 @@
           <nav class="bg-biru-utama-0 h-24 text-white flex items-center justify-evenly shadow-md drop-shadow-lg">
               <a class="font-semibold text-3xl mx-5" href="/">MitsukriPedia</a>
               <ul class="flex justify-around w-1/3">
-                  <li class="text-base cursor-pointer p-1 hover:text-gray-100"><a href="/books">Books</a></li>
-                  <li class="text-base cursor-pointer p-1 hover:text-gray-100"><a href="">Gadget</a></li>
-                  <li class="text-base cursor-pointer p-1 hover:text-gray-100"><a href="">Diamond</a></li>
+                  <li
+                      class="text-base cursor-pointer p-1 hover:text-gray-100 {{ request()->is('books') ? 'underline' : '' }}">
+                      <a href="/books">Books</a>
+                  </li>
+                  <li
+                      class="text-base cursor-pointer p-1 hover:text-gray-100 {{ request()->is('gadget') ? 'underline' : '' }}">
+                      <a href="/gadget">Gadget</a>
+                  </li>
+                  <li
+                      class="text-base cursor-pointer p-1 hover:text-gray-100 {{ request()->is('diamond') ? 'underline' : '' }}">
+                      <a href="/diamond">Diamond</a>
+                  </li>
               </ul>
               <div class="relative">
                   <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none drop-shadow-md">
@@ -32,7 +41,7 @@
                           <i data-feather="log-in" class="stroke-blue-400 w-5 ml-3"></i>
                       </li>
                       <li class="flex items-center hover:bg-gray-200 mt-2 rounded-b-md">
-                          <a href="#" class="px-3 py-2 text-gray-800 text-sm font-semibold">Sign Up</a>
+                          <a href="/daftar" class="px-3 py-2 text-gray-800 text-sm font-semibold">Sign Up</a>
                           <i data-feather="user-plus" class="stroke-blue-400 w-5 ml-1"></i>
                       </li>
                   </ul>

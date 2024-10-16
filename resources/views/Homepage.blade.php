@@ -7,7 +7,7 @@
     <div class="w-full flex items-center justify-center sm:flex-wrap">
         <ul class="flex justify-around w-10/12">
             <li class="">
-                <a
+                <a href=""
                     class="bg-biru-muda-0 h-80 w-60 flex justify-center items-center rounded-xl shadow-md shadow-cyan-500/50">
                     <img src="{{ asset('img/book4.png') }}" alt="">
                 </a>
@@ -24,7 +24,7 @@
                 </div>
             </li>
             <li class="">
-                <a
+                <a href=""
                     class="bg-biru-muda-0 h-80 w-60 flex justify-center items-center rounded-xl shadow-md shadow-cyan-500/50">
                     <img src="{{ asset('img/book4.png') }}" alt="">
                 </a>
@@ -41,7 +41,7 @@
                 </div>
             </li>
             <li class="">
-                <a
+                <a href=""
                     class="bg-biru-muda-0 h-80 w-60 flex justify-center items-center rounded-xl shadow-md shadow-cyan-500/50">
                     <img src="{{ asset('img/book2.png') }}" alt="">
                 </a>
@@ -59,7 +59,7 @@
                 </div>
             </li>
             <li class="">
-                <a
+                <a href=""
                     class="bg-biru-muda-0 h-80 w-60 flex justify-center items-center rounded-xl shadow-md shadow-cyan-500/50">
                     <img src="{{ asset('img/book3.png') }}" alt="">
                 </a>
@@ -80,9 +80,9 @@
     </div>
 
     <div class="my-12 w-full grid justify-items-center">
-        <button
+        <a href="/books"
             class="outline outline-1 outline-gray-400 rounded-full py-5 px-14 font-semibold shadow-md hover:bg-gray-50 active:bg-gray-100">Lihat
-            Semua</button>
+            Semua</a>
     </div>
 
     <div class="grid justify-items-center">
@@ -97,8 +97,8 @@
     <div class="w-full flex items-center justify-center">
         <ul class="flex justify-around w-10/12">
             <li class="">
-                <a
-                    class="outline-none h-80 w-60 flex justify-center items-center rounded-xl shadow-lg outline-1 outline-biru-muda-0 outline-offset-0">
+                <a href=""
+                    class="h-80 w-60 flex justify-center items-center rounded-xl shadow-lg outline-1 outline-biru-muda-0 outline-offset-0 outline-none">
                     <img src="{{ asset('img/gadget1.jpg') }}" alt="">
                 </a>
                 <div class="w-full grid justify-items-center my-2">
@@ -114,7 +114,7 @@
                 </div>
             </li>
             <li class="">
-                <a
+                <a href=""
                     class="outline-none h-80 w-60 flex justify-center items-center rounded-xl shadow-lg outline-1 outline-biru-muda-0 outline-offset-0">
                     <img src="{{ asset('img/gadget2.jpeg') }}" alt="">
                 </a>
@@ -131,7 +131,7 @@
                 </div>
             </li>
             <li class="">
-                <a
+                <a href=""
                     class="outline-none h-80 w-60 flex justify-center items-center rounded-xl shadow-lg outline-1 outline-biru-muda-0 outline-offset-0">
                     <img src="{{ asset('img/gadget3.jpeg') }}" alt="">
                 </a>
@@ -148,7 +148,7 @@
                 </div>
             </li>
             <li class="">
-                <a
+                <a href=""
                     class="outline-none h-80 w-60 flex justify-center items-center rounded-xl shadow-lg outline-1 outline-biru-muda-0 outline-offset-0">
                     <img src="{{ asset('img/gadget4.jpeg') }}" alt="">
                 </a>
@@ -169,9 +169,9 @@
     </div>
 
     <div class="my-12 w-full grid justify-items-center">
-        <button
+        <a href="/gadget"
             class="outline outline-1 outline-gray-400 rounded-full py-5 px-14 font-semibold shadow-md hover:bg-gray-50 active:bg-gray-100">Lihat
-            Semua</button>
+            Semua</a>
     </div>
 
     <div class="grid justify-items-center">
@@ -189,7 +189,7 @@
         <ul class="flex justify-around w-10/12">
             <li
                 class="outline-none h-72 w-72 flex justify-center items-center rounded-xl shadow-lg outline-1 outline-biru-muda-0 outline-offset-0">
-                <a class="">
+                <a class="" href="">
                     <div class="font-semibold my-3 mx-auto text-center text-biru-muda-2-0">"No Bonus"</div>
                     <img src="{{ asset('img/diamond.png') }}" alt="" class="mx-auto text-center">
 
@@ -201,7 +201,7 @@
             </li>
             <li
                 class="outline-none h-72 w-72 flex justify-center items-center rounded-xl shadow-lg outline-1 outline-biru-muda-0 outline-offset-0">
-                <a class="">
+                <a class="" href="">
                     <div class="font-semibold my-3 text-biru-muda-2-0 mx-auto text-center">"5 Diamonds Bonus"</div>
                     <img src="{{ asset('img/diamond.png') }}" alt="" class="mx-auto text-center">
 
@@ -213,7 +213,7 @@
             </li>
             <li
                 class="outline-none h-72 w-72 flex justify-center items-center rounded-xl shadow-lg outline-1 outline-biru-muda-0 outline-offset-0">
-                <a class="">
+                <a class="" href="">
                     <div class="font-semibold  my-3 text-biru-muda-2-0 mx-auto text-center">"20 Diamonds Bonus"</div>
                     <img src="{{ asset('img/diamond.png') }}" alt="" class="mx-auto text-center">
 
@@ -225,7 +225,7 @@
             </li>
             <li
                 class="outline-none h-72 w-72 flex justify-center items-center rounded-xl shadow-lg outline-1 outline-biru-muda-0 outline-offset-0">
-                <a class="">
+                <a class="" href="">
                     <div class="font-semibold my-3 text-biru-muda-2-0 mx-auto text-center">"30 Diamonds Bonus"</div>
                     <img src="{{ asset('img/diamond.png') }}" alt="" class="mx-auto text-center">
 
@@ -240,9 +240,9 @@
     </div>
 
     <div class="my-12 w-full grid justify-items-center">
-        <button
+        <a href="/diamond"
             class="outline outline-1 outline-gray-400 rounded-full py-5 px-14 font-semibold shadow-md hover:bg-gray-50 active:bg-gray-100">Lihat
-            Semua</button>
+            Semua</a>
     </div>
 
     <div class="grid justify-items-center">

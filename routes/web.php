@@ -16,3 +16,11 @@ Route::get('/daftar', function () {
 });
 
 Route::get('/books', [BooksController::class, 'index']);
+
+Route::get('/gadget', function () {
+   return view('gadget'); 
+});
+
+Route::get('/diamond', function () {
+   return view('diamond');
+});

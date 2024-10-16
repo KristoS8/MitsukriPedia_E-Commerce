@@ -4,8 +4,8 @@
               <a class="font-semibold text-3xl mx-5" href="/">MitsukriPedia</a>
               <ul class="flex justify-around w-1/3">
                   <li class="text-base cursor-pointer p-1 hover:text-gray-100"><a href="/books">Books</a></li>
-                  <li class="text-base cursor-pointer p-1 hover:text-gray-100"><a href="">Gadget</a></li>
-                  <li class="text-base cursor-pointer p-1 hover:text-gray-100"><a href="">Diamond</a></li>
+                  <li class="text-base cursor-pointer p-1 hover:text-gray-100"><a href="/gadget">Gadget</a></li>
+                  <li class="text-base cursor-pointer p-1 hover:text-gray-100"><a href="/diamond">Diamond</a></li>
               </ul>
               <div class="relative">
                   <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none drop-shadow-md">
