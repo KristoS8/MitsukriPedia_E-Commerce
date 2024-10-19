@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BooksController;
+use App\Http\Controllers\SocialiteLoginController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -24,3 +25,11 @@ Route::get('/gadget', function () {
 Route::get('/diamond', function () {
    return view('diamond');
 });
+
+Route::get('/dashboard', function (){
+   return view('dashboard.dashboard');
+});
+
+// redirect to google
+Route::get('auth/google', [SocialiteLoginController::class, 'redirectGoogle']);
+Route::get('auth/google/callback', [SocialiteLoginController::class, 'callbackGoogle']);

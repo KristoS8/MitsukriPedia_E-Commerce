@@ -64,7 +64,7 @@
                 <div class="flex justify-between w-6/12 ms-10">
                     <div class="grid justify-items-center">
                         <a class="rounded-full border border-biru-utama-0 py-2 px-14 text-white font-semibold hover:bg-gray-50 active:bg-gray-100"
-                            href="">
+                            href="{{ url('auth/google') }}">
                             <img src="{{ asset('img/google.png') }}" alt=""
                                 class="object-contain mix-blend-multiply w-10">
                         </a>
