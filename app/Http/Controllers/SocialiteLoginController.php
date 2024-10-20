@@ -24,7 +24,7 @@ class SocialiteLoginController extends Controller
         if (!$user) {
             $userLogin = User::create([
                 'name' => $googleUser->name,
-                'username' => $googleUser->user["given_name"],
+                // 'username' => $googleUser->user["given_name"],
                 'email' => $googleUser->email,
                 'password' => bcrypt(Str::random(10)),
             ]);

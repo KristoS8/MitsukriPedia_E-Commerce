@@ -29,11 +29,11 @@
         <div class=" w-1/2">
             <div class="font-semibold w-full grid justify-items-center mt-16 text-2xl">{{ $title }}</div>
 
-            <form action="" method="post" class="my-12 mx-10 space-y-4 space-x-10">
+            <form action="/loginAuth" method="post" class="my-12 mx-10 space-y-4 space-x-10">
                 @csrf
                 <label for="email" class="font-semibold">E-mail</label>
                 <div>
-                    <input type="email"
+                    <input type="email" name="email" id="email" value="{{ old('email') }}"
                         class="px-5 py-3 border-4 border-biru-utama-0 rounded-2xl w-11/12 outline-none focus:ring-biru-muda-0 focus:ring-2 text-gray-800"
                         required placeholder="Enter Your Email...">
                 </div>
@@ -42,7 +42,7 @@
                     <label for="password" class="font-semibold">Password</label>
                 </div>
                 <div>
-                    <input type="password"
+                    <input type="password" name="password" id="password" value="{{ old('password') }}"
                         class="px-5 py-3 border-4 border-biru-utama-0 rounded-2xl w-11/12 outline-none focus:ring-biru-muda-0 focus:ring-2 text-gray-800"
                         required placeholder="Enter Your Password...">
                 </div>
@@ -51,8 +51,14 @@
                     <a href="">Forgot Password?</a>
                 </div>
 
+                <div class="grid justify-items-center text-xs font-semibold">
+                    <label for="remember" class="flex items-center">
+                        <input type="checkbox" name="remember" id="remember" class="mx-2">Remember Me
+                    </label>
+                </div>
+
                 <div class="grid justify-items-center">
-                    <button
+                    <button type="submit"
                         class="bg-biru-utama-0 rounded-full py-3 px-14 text-white font-semibold active:bg-blue-500 hover:bg-biru-muda-2-0">
                         Login
                     </button>

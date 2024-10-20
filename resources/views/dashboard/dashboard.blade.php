@@ -9,7 +9,13 @@
 </head>
 
 <body>
-    <h1>Dashboard</h1>
+    <h1>Dashboard {{ auth()->user()->name }}</h1>
+
+    <form action="/logout" method="POST">
+        @csrf
+        <button class="bg-biru-utama-0 p-3 rounded-xl">Logout</button>
+    </form>
+
 </body>
 
 </html>
